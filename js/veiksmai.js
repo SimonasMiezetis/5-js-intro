@@ -52,7 +52,7 @@ petriukoPamokuSarasas += petriukoTvarkarastis[index1--] + space;
 petriukoPamokuSarasas += petriukoTvarkarastis[index1--] + space;
 petriukoPamokuSarasas += petriukoTvarkarastis[index1--] + space;
 petriukoPamokuSarasas += petriukoTvarkarastis[index1--] + space;
-petriukoPamokuSarasas += petriukoTvarkarastis[index1--] + space;
+petriukoPamokuSarasas += petriukoTvarkarastis[index1--];
 console.log(petriukoPamokuSarasas);
 
 console.log('---------------------');
@@ -64,7 +64,7 @@ jonukoPamokuSarasas += jonukoTvarkarastis[index2--] + space;
 jonukoPamokuSarasas += jonukoTvarkarastis[index2--] + space;
 jonukoPamokuSarasas += jonukoTvarkarastis[index2--] + space;
 jonukoPamokuSarasas += jonukoTvarkarastis[index2--] + space;
-jonukoPamokuSarasas += jonukoTvarkarastis[index2--] + space;
+jonukoPamokuSarasas += jonukoTvarkarastis[index2--];
 console.log(jonukoPamokuSarasas);
 
 console.log('---------------------');
@@ -76,7 +76,7 @@ dariukoPamokuSarasas += dariukoTvarkarastis[index3--] + space;
 dariukoPamokuSarasas += dariukoTvarkarastis[index3--] + space;
 dariukoPamokuSarasas += dariukoTvarkarastis[index3--] + space;
 dariukoPamokuSarasas += dariukoTvarkarastis[index3--] + space;
-dariukoPamokuSarasas += dariukoTvarkarastis[index3--] + space;
+dariukoPamokuSarasas += dariukoTvarkarastis[index3--];
 console.log(dariukoPamokuSarasas);
 
 console.log('---------------------');
