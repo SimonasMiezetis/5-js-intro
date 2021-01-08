@@ -86,4 +86,6 @@ if (petriukoPamokuSarasas.length !== jonukoPamokuSarasas.length) {
     console.log('Bandykite kita karta')    
 }
 
+console.log('---------------------');
+
 
