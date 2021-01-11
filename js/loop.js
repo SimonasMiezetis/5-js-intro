@@ -127,3 +127,5 @@ for (let i = -18; i <= 18; i++) {
 }
 
 console.log('Skaičių intervale tarp -18 ir 18, besidalijančių be liekanos iš ' + daliklis3 + ' yra ' + beLiekanos3 + ' vienetai');
+
+console.log('---------------------');
