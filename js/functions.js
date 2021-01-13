@@ -13,7 +13,7 @@ function daugyba(a, b) {
 
 console.log(daugyba(2,5));
 console.log(daugyba(5,9));
-console.log(daugyba(2,9));
+console.log(daugyba(2,'-'));
 
 console.log('---------------------');
 
@@ -34,15 +34,59 @@ console.log(intervaloSuma(30, 70));
 
 console.log('---------------------');
 
-
 function tekstasAtvirksciai(tekstas) {
-    console.log(tekstas);
     let atbTekstas = "";
-    for ( i = tekstas.lenght - 1; i >= 0; i--) {
-        atbTekstas += text[i];
+    for ( i = tekstas.length - 1; i >= 0; i--) {
+        atbTekstas += tekstas[i];
     }
-    return atbTekstas;
+    return 'Pradinis tekstas :' + tekstas + ' ---> Atvirkscias tekstas: ' + atbTekstas;
 }
 
-tekstasAtvirksciai("labas");
 console.log(tekstasAtvirksciai('labukas'));
+console.log(tekstasAtvirksciai('labas krabas'));
+
+console.log('---------------------');
+
+function beLiekanos(from, till, divider) {
+    let liekana = 0;
+    for (let i = from; i <= till; i++) {
+        let dalybosVeiksmas = i % divider;
+        if (dalybosVeiksmas === 0) {
+            liekana++
+        }
+    }
+    return 'Skaičių intervale tarp '+ from +' ir '+ till +', besidalijančių be liekanos iš '+ divider +' yra '+ liekana +' vienetai.';
+}
+
+console.log(beLiekanos(0,11,3));
+console.log(beLiekanos(8,31,5));
+console.log(beLiekanos(-18,18,7));
+
+console.log('---------------------');
+
+function skaitmenuKiekisSkaiciuje(number) {
+    if (typeof number !== 'number') {
+        return 'ERROR: reikia skaiciaus tipo reiksmes';
+    }
+    if (isNaN(number) ||
+        !isFinite(number)) {
+        return 'ERROR: reikai normalaus/tikro skaicias';
+    }
+
+
+    let skaitmenuKiekis = number.toString().length 
+    if (number % 1 !== 0) {
+        skaitmenuKiekis--;
+    }
+    if (number < 0) {
+        skaitmenuKiekis--;
+    }
+    return "Skaitmenu kiekis skaiciuje: " + skaitmenuKiekis;
+}
+
+console.log(skaitmenuKiekisSkaiciuje(-33));
+console.log(skaitmenuKiekisSkaiciuje(3.5));
+console.log(skaitmenuKiekisSkaiciuje(33333333333333));
+
+
+
