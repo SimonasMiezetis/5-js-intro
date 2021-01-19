@@ -48,7 +48,7 @@ console.log(letters(1561, 2));
 
 console.log('---------------------');
 
-console.log(letters('abcdefg', 2), '->', 'bdf');
+console.log(letters('abcdefg', -2), '->', 'bdf');
 console.log(letters('abcdefghijkl', 3), '->', 'cfil');
 console.log(letters('abc', 1), '->', 'abc');
 console.log(letters('abcdef', 1), '->', 'abcdef');
@@ -56,7 +56,16 @@ console.log(letters('abcdefghijklmnprsto', 3), '->', 'cfilpt');
 console.log(letters('abcdefghijklmnprsto', 5), '->', 'ejp');
 
 
-
+function odds(values){
+    for (i = 0; i < values.lenght; i++) {
+      let newList = '';
+      if (values[i] % 2 !== 0) {
+        newList = newList + values[i];
+      }
+    }
+    // arrow it
+    return newList;
+  }
 
 
 

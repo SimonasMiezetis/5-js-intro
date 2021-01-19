@@ -51,3 +51,23 @@ console.log(division(10, -1) + ' --> -10');
 console.log(division(1561, 2) + ' --> 780.5');
 console.log(division(2, 3) + ' --> 0.6666666666666666');
 
+
+console.log(division(222222, 1));
+console.log(division(222222, 10));
+console.log(division(222222, 100));
+console.log(division(222222, 1000));
+console.log(division(222222, 10000));
+console.log(division(222222, 100000));
+console.log(division(222222, 1000000));
+
+console.log('---------------------');
+
+console.log(division(2.22222, 1));
+console.log(division(2.22222, 10));
+console.log(division(2.22222, 100));
+console.log(division(2.22222, 1000));
+console.log(division(2.22222, 10000));
+console.log(division(2.22222, 100000));
+console.log(division(2.22222, 1000000));
+
+
